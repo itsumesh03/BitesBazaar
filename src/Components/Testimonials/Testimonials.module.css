@@ -1,0 +1,94 @@
+.testimonials {
+  padding: 3rem 2rem;
+  background-image: url("../../assets/img3.jpg");
+  background-size: cover;
+  text-align: center;
+  margin:2rem;
+   font-family: "Poppins", sans-serif;
+   
+
+}
+.testimonials h3{
+  font-weight: 400;
+  color: #2c1310;
+  /* color: #e3e3e3; */
+}
+.testimonials h1{
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #2c1310;
+  font-weight: 500;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* gap: 1.5rem; */
+  /* margin-top: 2rem; */
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #e1c99e;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 20px;
+  /* padding: 1rem; */
+  margin: 30px 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  gap: 20px;
+}
+
+.text {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.stars {
+  color: #ff9800;
+  font-size: 1.2rem;
+}
+/* @media (max-width: 768px) {
+  .card {
+    margin: 1rem 0;
+  }
+} */

@@ -1,0 +1,41 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background: rgba(225, 224, 224, 0.916);
+  text-align: center;
+   font-family: "Poppins", sans-serif;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* gap: 0.8rem; */
+}
+
+.icon {
+  font-size: 2rem;
+  color: #4caf50; /* green color */
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c1310;
+  text-align: left;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #2c1310;
+  line-height: 1.5;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .features {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+} 
